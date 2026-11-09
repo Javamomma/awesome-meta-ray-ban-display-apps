@@ -2,34 +2,34 @@
 
 A big, community-sourced index of open-source GitHub repositories for the **Meta Ray-Ban Display** glasses (and the **Meta Neural Band**): web apps, games, native companion apps, SDKs, templates, dev tools and hacks.
 
-**635 repositories** · collected 2026-10-28 by searching GitHub repo names, descriptions, topics and READMEs for Ray-Ban Display / MRBD / Neural Band terms, then filtering out unrelated hits (neural-bandit ML papers, EEG "neural band" signal processing, generic Ray-Ban Meta camera apps with no display support, unchanged forks).
+**693 repositories** · collected 2026-10-28, updated 2026-11-09 by searching GitHub repo names, descriptions, topics and READMEs for Ray-Ban Display / MRBD / Neural Band terms, then filtering out unrelated hits (neural-bandit ML papers, EEG "neural band" signal processing, generic Ray-Ban Meta camera apps with no display support, unchanged forks).
 
 > Unofficial and not affiliated with Meta or Ray-Ban. Inclusion is not an endorsement — many of these are hackathon prototypes or personal projects; review code before running it, especially anything that asks for API keys, accounts or phone/desktop bridges.
 
 ## Contents
 
 - [Official Meta repos](#official-meta-repos) (5)
-- [Guides, research & curated lists](#guides-research--curated-lists) (5)
-- [Neural Band tools & hacks](#neural-band-tools--hacks) (11)
+- [Guides, research & curated lists](#guides-research--curated-lists) (6)
+- [Neural Band tools & hacks](#neural-band-tools--hacks) (16)
 - [Rokid Lumen (built as MRBD web apps)](#rokid-lumen-built-as-mrbd-web-apps) (14)
-- [SDKs, templates, UI kits & dev tools](#sdks-templates-ui-kits--dev-tools) (74)
-- [AI assistants, agents & coding tools](#ai-assistants-agents--coding-tools) (70)
-- [Games](#games) (100)
-- [Video, music & media](#video-music--media) (56)
-- [Navigation, travel & maps](#navigation-travel--maps) (57)
-- [Health, fitness & accessibility](#health-fitness--accessibility) (54)
-- [Messaging, social & notifications](#messaging-social--notifications) (10)
-- [Productivity, utilities & everything else](#productivity-utilities--everything-else) (179)
+- [SDKs, templates, UI kits & dev tools](#sdks-templates-ui-kits--dev-tools) (82)
+- [AI assistants, agents & coding tools](#ai-assistants-agents--coding-tools) (80)
+- [Games](#games) (102)
+- [Video, music & media](#video-music--media) (59)
+- [Navigation, travel & maps](#navigation-travel--maps) (59)
+- [Health, fitness & accessibility](#health-fitness--accessibility) (60)
+- [Messaging, social & notifications](#messaging-social--notifications) (11)
+- [Productivity, utilities & everything else](#productivity-utilities--everything-else) (199)
 
 ## Official Meta repos
 
 | Repo | Description | ★ | Lang |
 |---|---|---|---|
-| [facebook/meta-wearables-dat-ios](https://github.com/facebook/meta-wearables-dat-ios) | Meta Wearables Device Access Toolkit for iOS | 577 | Shell |
-| [facebook/meta-wearables-dat-android](https://github.com/facebook/meta-wearables-dat-android) | Meta Wearables Device Access Toolkit for Android | 386 | Shell |
-| [facebook/meta-wearables-webapp](https://github.com/facebook/meta-wearables-webapp) | AI-assisted development toolkit for building web applications on Meta Ray-Ban Display glasses. | 220 | JavaScript |
-| [facebook/meta-ray-ban-display-ui-toolkit-web](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web) | UI Toolkit brings the Meta Ray-Ban Display design system to React. Use its components, semantic tokens, materials, motion, accessibility behavior, and directional focus navigati… | 21 | TypeScript |
-| [facebook/meta_glasses_webmcp](https://github.com/facebook/meta_glasses_webmcp) | WebMCP on Meta Ray-Ban Display Glasses enables developers to utilize Meta AI to create hands free and agentic interactions on web apps using user voice. | 5 |  |
+| [meta/meta-wearables-dat-ios](https://github.com/meta/meta-wearables-dat-ios) | Meta Wearables Device Access Toolkit for iOS | 577 | Shell |
+| [meta/meta-wearables-dat-android](https://github.com/meta/meta-wearables-dat-android) | Meta Wearables Device Access Toolkit for Android | 386 | Shell |
+| [meta/meta-wearables-webapp](https://github.com/meta/meta-wearables-webapp) | AI-assisted development toolkit for building web applications on Meta Ray-Ban Display glasses. | 220 | JavaScript |
+| [meta/meta-ray-ban-display-ui-toolkit-web](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web) | UI Toolkit brings the Meta Ray-Ban Display design system to React. Use its components, semantic tokens, materials, motion, accessibility behavior, and directional focus navigati… | 21 | TypeScript |
+| [meta/meta_glasses_webmcp](https://github.com/meta/meta_glasses_webmcp) | WebMCP on Meta Ray-Ban Display Glasses enables developers to utilize Meta AI to create hands free and agentic interactions on web apps using user voice. | 5 |  |
 
 ## Guides, research & curated lists
 
@@ -40,6 +40,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [tomkrikorian/awesome-meta-wearables](https://github.com/tomkrikorian/awesome-meta-wearables) | List of resources for Meta Wearables developers! All you need to build apps for your Meta Ray Ban! | 3 |  |
 | [extentos/smart-glasses-ecosystem](https://github.com/extentos/smart-glasses-ecosystem) | Which smart-glasses platforms can you actually build and ship on? A sourced, dated map of 36 platforms and 142 devices — SDK, app model, distribution, publishing, on-lens UI and… | 1 |  |
 | [gdrci/Research](https://github.com/gdrci/Research) | Documentation of the Meta Ray-Ban Display (greatwhite) firmware: boot chain, Android Verified Boot, TrustZone and hypervisor, remote processors, peripherals and device-tree over… | 0 | Shell |
+| [macedonga/visor-site](https://github.com/macedonga/visor-site) | Visor, the Visor Development Kit's docs and the Meta glasses protocol reference. | 0 | Astro |
 
 ## Neural Band tools & hacks
 
@@ -50,10 +51,15 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [callbacked/neural-band-poc](https://github.com/callbacked/neural-band-poc) | mac to meta neural band connection - lots of possibilities :) | 27 | Python |
 | [handzlikchris/Glasscast](https://github.com/handzlikchris/Glasscast) | Phone remote control for Meta Ray-Ban Display glasses. Mirror and control your Android phone from the glasses: live screen over WebRTC, Neural Band pinches and swipes to tap, sc… | 2 | C# |
 | [RicardoFASantos/NotNeuralBand](https://github.com/RicardoFASantos/NotNeuralBand) | An open-source alternative to Meta’s Neural Band. | 2 |  |
+| [Axo-Neurotech/Kinesis-Axo](https://github.com/Axo-Neurotech/Kinesis-Axo) | Fork of Kinesis project, patched reliability and added AI features. | 1 | Swift |
 | [896kb/air-gestures](https://github.com/896kb/air-gestures) | Control a Linux desktop with a Meta Neural Band — Rust port of callbacked/kinesis · Mirror of https://gitlab.com/896kb/air-gestures — issues and merge requests there. | 0 | Rust |
 | [896kb/air-gestures-android](https://github.com/896kb/air-gestures-android) | Meta Neural Band gestures on Android — companion to air-gestures · Mirror of https://gitlab.com/896kb/air-gestures-android — issues and merge requests there. | 0 | Kotlin |
+| [Ben-Santana/meta-neural-py](https://github.com/Ben-Santana/meta-neural-py) | Python driver and decoder for interfacing with Meta's Neural Band. While originally intended for use with the Meta Display glasses, the potential applications of the band are… | 0 | Python |
+| [Ben-Santana/runes_ios](https://github.com/Ben-Santana/runes_ios) | Native iPhone client for the Neural Band: enrollment, gestures, background sessions (not yet verified on hardware) | 0 | Swift |
+| [Ben-Santana/runes_mac](https://github.com/Ben-Santana/runes_mac) | Runes: control a Mac with the Neural Band (gestures, holds and wrist moves become shortcuts and app actions) | 0 | TypeScript |
 | [gmaomraan/WebVR-Patterns-NeuralBand](https://github.com/gmaomraan/WebVR-Patterns-NeuralBand) | WebVR-Patterns fork with a gesture bridge for driving the Custom pattern viewer from an external source (e.g. Meta Neural Band) | 0 | JavaScript |
 | [PlumpyMonkey/Neural-Band](https://github.com/PlumpyMonkey/Neural-Band) | I wanted one of the nueral bands that the ray-ban meta displays used but obviously im not spending 800 bucks just for a band. So I decided to make my own but with motion instead… | 0 |  |
+| [rfs2671/Hand](https://github.com/rfs2671/Hand) | Hand Bridge: Android app that makes the phone a Bluetooth keyboard/mouse/media remote driven by the Neural Band | 0 | Kotlin |
 | [shyam-barange/kinesis](https://github.com/shyam-barange/kinesis) | Use your Meta Neural Band to control your Mac. Fork of callbacked/kinesis with an Xcode 27 build fix and support for bands on L2CAP PSM 129. | 0 | Swift |
 | [Zac-Chen-2024/Ar-Gesture-Frontend](https://github.com/Zac-Chen-2024/Ar-Gesture-Frontend) | _(no description)_ | 0 | JavaScript |
 
@@ -97,12 +103,15 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [luke-hurd/rbm-display-head-gestures-js](https://github.com/luke-hurd/rbm-display-head-gestures-js) | Head gestures for Meta Display browsers (DeviceOrientation). | 2 | JavaScript |
 | [ThomasBurgess2000/dpad-forwarder](https://github.com/ThomasBurgess2000/dpad-forwarder) | Forward Meta Ray-Ban Display D-pad input to a computer | 2 | Python |
 | [hshwang34/DisEmulator](https://github.com/hshwang34/DisEmulator) | Gesture-controlled UI prototyping environment for Meta Ray-Ban Display (600×600px HUD) | 1 | TypeScript |
+| [macedonga/visor-kit](https://github.com/macedonga/visor-kit) | Build apps, scripts, AI agents and Display web apps for Meta glasses through Visor: Android, TypeScript, Python, JSON-RPC and MCP. | 1 | Kotlin |
 | [mrmhthegreat/meta_wearables](https://github.com/mrmhthegreat/meta_wearables) | A Flutter plugin for the **Meta Wearables Device Access Toolkit (MWDAT)**. Access Meta Ray-Ban glasses camera streaming, photo capture, display content rendering, audio routing,… | 1 | HTML |
 | [romanized/ray-ban-display-webapps](https://github.com/romanized/ray-ban-display-webapps) | Three working web apps for the Meta Ray-Ban Display (Snake, Weather, Compass) + a from-scratch guide to building your own. Just HTML/CSS/JS on a 600x600 screen. | 1 | JavaScript |
 | [ShakenTheCoder/meta-rayban-display-boilerplate](https://github.com/ShakenTheCoder/meta-rayban-display-boilerplate) | 🕶️ Dead-simple Next.js + Tailwind starter kit for building web apps on the Meta Ray-Ban Display's 600×600 monocular HUD. Neural Band gesture hooks included. Free & open source. | 1 | TypeScript |
 | [100yenadmin/glasses-platform](https://github.com/100yenadmin/glasses-platform) | Smart glasses as a Hermes Agent channel: talk to your own agent from Meta Ray-Ban, Ray-Ban Display, Even G2 and Mentra glasses, with photos, streaming and pushes. | 0 | Python |
+| [1lamontphillips/metadisplay](https://github.com/1lamontphillips/metadisplay) | Android prototypes streaming a smooth phone-camera view into the Display | 0 | Java |
 | [ajaybiju-sparkski/hydris-Glasses-UI-demo](https://github.com/ajaybiju-sparkski/hydris-Glasses-UI-demo) | _(no description)_ | 0 | HTML |
 | [AldoOmnia/Meta_Rayban_Glasses_App](https://github.com/AldoOmnia/Meta_Rayban_Glasses_App) | Meta Ray-Ban Display web apps hub: catalog, starter, sensors lab | 0 | JavaScript |
+| [anoted/meta-glass-test](https://github.com/anoted/meta-glass-test) | Sensor test, streaming and recording suite for Meta Ray-Ban Display glasses and Neural Band | 0 | Kotlin |
 | [antonrisch/hudxyz](https://github.com/antonrisch/hudxyz) | _(no description)_ | 0 | TypeScript |
 | [audiojoe4444/Matinee](https://github.com/audiojoe4444/Matinee) | A Streaming app tapping into the Archive.org treasure chest | 0 | JavaScript |
 | [b-d-io/b-d](https://github.com/b-d-io/b-d) | Open-source tools and field notes for building apps on display smart glasses: firmware-exact text layout for Even G2, a lens simulator, and an MCP server | 0 | TypeScript |
@@ -112,9 +121,13 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [chrisstayte/dart-meta-dat](https://github.com/chrisstayte/dart-meta-dat) | Dart / Flutter port of Meta device access toolkit | 0 | Dart |
 | [createdbymvw/yeet-your-thoughts-glasses](https://github.com/createdbymvw/yeet-your-thoughts-glasses) | A playful smart glasses app for writing or dictating a thought, burning it away, and letting it go. Built for Meta Ray-Ban Display with a procedural burn animation. | 0 | JavaScript |
 | [CumulativeWebInc/cwi-kingcode-lens](https://github.com/CumulativeWebInc/cwi-kingcode-lens) | KingCode Lens — web apps for Meta Ray-Ban Display glasses, previewed in your browser. Simulator lab + conformance-tested adapter stack. No hardware needed. | 0 | JavaScript |
+| [cursosmrugerio/sonda-mx](https://github.com/cursosmrugerio/sonda-mx) | Sonda de diagnóstico: mide qué funciona en Meta Ray-Ban Display desde México | 0 | HTML |
+| [drmora23/meeting-copilot-display-probe](https://github.com/drmora23/meeting-copilot-display-probe) | Static capability probe for Meta Ray-Ban Display web apps (no network requests, no data stored) | 0 | HTML |
 | [edom18/Ray-Ban_Meta_Display_App](https://github.com/edom18/Ray-Ban_Meta_Display_App) | _(no description)_ | 0 | JavaScript |
 | [fasaiph/kitty-captions](https://github.com/fasaiph/kitty-captions) | 🐱 Real-time cat-mood captions on Meta Ray-Ban Display glasses (on-device Vision feature-print matching) | 0 | Swift |
+| [gamberoferoce/webhud](https://github.com/gamberoferoce/webhud) | Universal HUD button for Ray-Ban Display and Quest | 0 | HTML |
 | [Hendricks27/mrd](https://github.com/Hendricks27/mrd) | _(no description)_ | 0 | Swift |
+| [hinty-eu/smart-glasses-skills](https://github.com/hinty-eu/smart-glasses-skills) | Agent skills for building apps on smart glasses from every major brand: Even Realities G2, Meta Ray-Ban Display, Rokid, Vuzix Z100, Android XR and more. Works with Claude Code… | 0 | JavaScript |
 | [hka233/MRBD-Translation-EN-JP](https://github.com/hka233/MRBD-Translation-EN-JP) | Meta Rayban Display project to translate JP to EN using the smart glasses connected to iPhone | 0 | Swift |
 | [hoonsubin/meta-rayban-display-litellm](https://github.com/hoonsubin/meta-rayban-display-litellm) | A simple meta rayban app for using LiteLLM for AI assistant | 0 | Kotlin |
 | [islawka-cyber/greatwhite-lab](https://github.com/islawka-cyber/greatwhite-lab) | Meta Ray-Ban Display Web App capability probe | 0 | JavaScript |
@@ -126,6 +139,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [lr-rbm/starter_kit_abhi](https://github.com/lr-rbm/starter_kit_abhi) | _(no description)_ | 0 | JavaScript |
 | [lr-rbm/starter_kit_aldana_y_maripe](https://github.com/lr-rbm/starter_kit_aldana_y_maripe) | _(no description)_ | 0 | JavaScript |
 | [lr-rbm/starter_kit_template](https://github.com/lr-rbm/starter_kit_template) | Template repository for personal Meta Ray-Ban Display starter kits. Use 'Use this template' to create a per-colleague playground. | 0 | JavaScript |
+| [maceip/xr-ui](https://github.com/maceip/xr-ui) | Visual components and semantic illustrations for head-worn XR / smart glasses displays | 0 | TypeScript |
 | [manmohanml1/autonomous-travel-guide-mrbd](https://github.com/manmohanml1/autonomous-travel-guide-mrbd) | Glasses-first travel companion combining weather, landmarks, translation, exchange rates, and budgets. | 0 | JavaScript |
 | [manmohanml1/checkmate-glass-mrbd](https://github.com/manmohanml1/checkmate-glass-mrbd) | Glasses-first chess with complete rules, local AI, saved games, and D-pad controls. | 0 | JavaScript |
 | [manmohanml1/glass-search-meta-display](https://github.com/manmohanml1/glass-search-meta-display) | Voice and handwriting-first search experience for Meta Ray-Ban Display glasses. | 0 | JavaScript |
@@ -169,10 +183,13 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [chosukhyun73/glass-agent](https://github.com/chosukhyun73/glass-agent) | Apple App Site Association for Pharos iOS app — Meta Wearables DAT Universal Link | 1 | Swift |
 | [coob113/Glance](https://github.com/coob113/Glance) | Monitor Codex activity from Meta Ray-Ban Display. | 1 | TypeScript |
 | [DOGFOOFA/adam.github.io](https://github.com/DOGFOOFA/adam.github.io) | A.D.A.M. (Advanced. Digital. Analytic. Manager.) is an app built for Meta RayBan Display that provides an OSINT tracking oppurtunity to users. Functions include AI summary of gl… | 1 | HTML |
+| [maceip/walkaway-muse-blitz](https://github.com/maceip/walkaway-muse-blitz) | Walkaway × Muse Blitz — Supervised Batch Browser & Meta Ray-Ban Display Glasses Commit Gate | 1 | Rust |
 | [MoheetBrain/MuseGlass](https://github.com/MoheetBrain/MuseGlass) | Turn Meta glasses into a hands-free interface for Muse Code. Delegate coding tasks by voice, hear live progress, interrupt or refine work mid-run, approve actions, and let your … | 1 | Python |
 | [1977744311/lenscrew-ios](https://github.com/1977744311/lenscrew-ios) | Open-source Mac bridge + iOS/watchOS app that unifies local Codex, Claude Code, and Cursor coding agents into one command deck — with QR-paired end-to-end-encrypted remote acces… | 0 | Swift |
 | [Aeonia-ai/rta-rsvp-reader](https://github.com/Aeonia-ai/rta-rsvp-reader) | CLI-controlled, WebSocket-driven RSVP reader for low-resolution AR displays | 0 | TypeScript |
+| [aizkinwork-star/intentlens](https://github.com/aizkinwork-star/intentlens) | IntentLens local-first visual assistant PWA - Meta-published models only | 0 | JavaScript |
 | [ajd265713-glitch/Pool](https://github.com/ajd265713-glitch/Pool) | _(no description)_ | 0 | JavaScript |
+| [alitaquie/jarvis-launcher](https://github.com/alitaquie/jarvis-launcher) | "Hey Meta, open the Grok Bot app" voice launcher (iOS, Wearables DAT 1.0.1) | 0 | Swift |
 | [aljabrialam/tencent-cloud-ai-hackathon-sg-2026](https://github.com/aljabrialam/tencent-cloud-ai-hackathon-sg-2026) | Tencent Cloud AI CAN DO IT Hackathon Singapore 2026 — spec-driven development with GitHub Spec Kit | 0 | TypeScript |
 | [angaddab1087-alt/XDG_HACKATHON_ANGAD-CHINTAMANI](https://github.com/angaddab1087-alt/XDG_HACKATHON_ANGAD-CHINTAMANI) | _(no description)_ | 0 | HTML |
 | [ashritha1392/fitness-product-for-meta](https://github.com/ashritha1392/fitness-product-for-meta) | _(no description)_ | 0 | TypeScript |
@@ -202,6 +219,8 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [JoshuaLevi/agent-visor](https://github.com/JoshuaLevi/agent-visor) | Monitor AI coding agents (Claude Code, Codex) on Meta Ray-Ban Display glasses. Approve tool permissions hands-free. | 0 | JavaScript |
 | [jsugihara-codex/lens-translator](https://github.com/jsugihara-codex/lens-translator) | Real time translation app | 0 | JavaScript |
 | [kendy92/Meta-Rayban-Glass-Shopping-List](https://github.com/kendy92/Meta-Rayban-Glass-Shopping-List) | Personal shopping app that manages shopping on the phone and supports view mode on Meta Ray-Ban display glasses. | 0 | JavaScript |
+| [kiheon0709/cueon](https://github.com/kiheon0709/cueon) | A presenter's assistant on Meta Ray-Ban Display: prepares answers from your own material, follows your slides, and puts the right card on your lens during Q&A | 0 | Python |
+| [krzychuwr1/ShutterSense](https://github.com/krzychuwr1/ShutterSense) | AI agent that works your camera: say what you want and it changes the settings, shoots, and checks its own photo. | 0 | TypeScript |
 | [kscanaiapp/kscan-glasses-webapp](https://github.com/kscanaiapp/kscan-glasses-webapp) | _(no description)_ | 0 | JavaScript |
 | [KYMao/turbometa-link](https://github.com/KYMao/turbometa-link) | AASA universal link host for TurboMeta iOS (Meta Ray-Ban Display) | 0 | HTML |
 | [labaronessa2025/jarvis-lente](https://github.com/labaronessa2025/jarvis-lente) | Jarvis sugli occhiali Ray-Ban Meta Display (web app) | 0 | HTML |
@@ -214,7 +233,10 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [mgzhang-tw/director-shot-assistant-display-demo](https://github.com/mgzhang-tw/director-shot-assistant-display-demo) | Meta Ray-Ban Display director shot navigation HUD demo | 0 | TypeScript |
 | [minutechreview/mrbd-teleprompter](https://github.com/minutechreview/mrbd-teleprompter) | AI Teleprompter for Meta Ray-Ban Display glasses — hands-free script reading via D-pad | 0 | JavaScript |
 | [mmaziesf/rayban-vlm-poc](https://github.com/mmaziesf/rayban-vlm-poc) | On-device VLM POC for Meta Ray-Ban Display (Android + iOS scaffold) | 0 | Kotlin |
+| [mohamedamrimail/metamusehackathon](https://github.com/mohamedamrimail/metamusehackathon) | i-persons: a talking digital twin that acts for you, approved with the Neural Band on the Display | 0 | TypeScript |
+| [moltbot-den/den-contracts-hackathon](https://github.com/moltbot-den/den-contracts-hackathon) | Agents that hire, pay and verify each other on Meta's models, from Ray-Ban Display glasses to any MCP agent | 0 | Python |
 | [nadeem-j29/glasses](https://github.com/nadeem-j29/glasses) | Claude card web app for Meta Ray-Ban Display (read-only) | 0 | HTML |
+| [OmiroAI/alfred](https://github.com/OmiroAI/alfred) | Ambient conversational assistant: Android companion + Python backend, HUD cards and translation subtitles, OpenAI-compatible/local models | 0 | Kotlin |
 | [omkar-103/context-os](https://github.com/omkar-103/context-os) | Accessibility context layer for Meta Ray-Ban Display — adapting real-world information to each user's accessibility needs using AI. | 0 | HTML |
 | [rapidstartup/chief-glasses](https://github.com/rapidstartup/chief-glasses) | Chief: encrypted assistant replies for Meta Ray-Ban Display | 0 |  |
 | [runningoec/smart-glasses-home-assistant](https://github.com/runningoec/smart-glasses-home-assistant) | Home Assistant custom integration that adds a 600x600 glasses Web App to Home Assistant - pair via short code, glance at 1-8 entities live over the HA websocket. | 0 | Python |
@@ -227,7 +249,9 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [Umang3211/casemate](https://github.com/Umang3211/casemate) | Live consulting case copilot for Meta Ray-Ban Display: the interview becomes glanceable cards on the lens, powered by Claude. | 0 | Swift |
 | [webmanagments/Kmr-fitup](https://github.com/webmanagments/Kmr-fitup) | _(no description)_ | 0 | TypeScript |
 | [williamxuuu/CookingGlasses](https://github.com/williamxuuu/CookingGlasses) | MetaAI cooking glasses | 0 | Swift |
+| [xiongh/jarvis-glasses-hud](https://github.com/xiongh/jarvis-glasses-hud) | Standalone JARVIS HUD for Meta Ray-Ban Display. | 0 | JavaScript |
 | [XoAnonXo/grok-glasses](https://github.com/XoAnonXo/grok-glasses) | Placeholder Meta Ray-Ban Display Web App | 0 | Swift |
+| [YiT-qg/mr-jeff-glasses](https://github.com/YiT-qg/mr-jeff-glasses) | Context-aware assistant for Meta Ray-Ban Display: dwell detection, context routing, and shop-floor root cause analysis backed by Mr. Jeff | 0 | Python |
 | [zhelaoui/meta-glasses-trs](https://github.com/zhelaoui/meta-glasses-trs) | _(no description)_ | 0 | JavaScript |
 
 ## Games
@@ -257,6 +281,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [FireDragonGameStudio/mrbd-cube](https://github.com/FireDragonGameStudio/mrbd-cube) | _(no description)_ | 0 | JavaScript |
 | [germanvargasn/SpaceCommander](https://github.com/germanvargasn/SpaceCommander) | Meta Ray Ban Display Space Shooter Game | 0 | JavaScript |
 | [glasses12345/rayban-rummy-counter](https://github.com/glasses12345/rayban-rummy-counter) | Card counting strategy app for Meta Ray-Ban displays - Rummy/Gin Rummy optimization | 0 | JavaScript |
+| [HoloLune/MetaMon](https://github.com/HoloLune/MetaMon) | Game Boy Advance emulator (mGBA/EmulatorJS) with Neural Band gesture controls; bring your own ROMs | 0 | JavaScript |
 | [JarJarMadeIt/flappy-bird-clone](https://github.com/JarJarMadeIt/flappy-bird-clone) | A Meta Ray-Ban Display app built with GlassKit Studio | 0 | TypeScript |
 | [jigglypop/golf-onefield](https://github.com/jigglypop/golf-onefield) | golf-onefield | 0 | Rust |
 | [jjang20/catapult-glass](https://github.com/jjang20/catapult-glass) | Fortris-style game for Meta Rayban Display | 0 | JavaScript |
@@ -278,6 +303,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [nicolachoquet06250/pong-meta-rayban-display-compatible](https://github.com/nicolachoquet06250/pong-meta-rayban-display-compatible) | création d'une web app du jeu "pong" mais compatible avec les meta rayban display et son neural band | 0 | TypeScript |
 | [Opbagya/Classic-Snake](https://github.com/Opbagya/Classic-Snake) | Built retro Arcade game of Classic Snake for Meta RayBan Display Glasses, which can be played across multiple platform not just for MRBD | 0 | TypeScript |
 | [rollinsio/gradioids](https://github.com/rollinsio/gradioids) | Vector asteroid shooter for Meta Ray-Ban Display glasses (MRBD web app) | 0 | JavaScript |
+| [sattimaxy-hue/shinmai-othello](https://github.com/sattimaxy-hue/shinmai-othello) | Othello advisor for Meta Ray-Ban Display (Shinmai): DAT camera stream -> board recognition on phone -> mini-board HUD with best move. Step 0 toward a Splendor advisor. | 0 | HTML |
 | [scottsigrist-a11y/Videopoker-v2](https://github.com/scottsigrist-a11y/Videopoker-v2) | _(no description)_ | 0 | TypeScript |
 | [seanfitz96/MetaDisplayGame](https://github.com/seanfitz96/MetaDisplayGame) | A game for the Meta Display glasses | 0 |  |
 | [sebastjanb/glassblocks](https://github.com/sebastjanb/glassblocks) | Falling-block puzzle for Meta Ray-Ban Display glasses | 0 | JavaScript |
@@ -345,6 +371,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [NRPM/meta-video-streaming-android](https://github.com/NRPM/meta-video-streaming-android) | an app to stream videofrom the meta rayban display glasses to this app and then show the feed inside the app. | 1 | Kotlin |
 | [1977744311/lenslive-ios](https://github.com/1977744311/lenslive-ios) | Turn Meta Ray-Ban Display into a POV livestream camera with an eyes-up danmaku monitor (iOS) | 0 | Swift |
 | [adilanchian96/live-2d-glasses-viewer](https://github.com/adilanchian96/live-2d-glasses-viewer) | Live 2D Avatar on meta ray ban displays. | 0 | TypeScript |
+| [Alienfader/matchsight](https://github.com/Alienfader/matchsight) | Live football matches on the Display (score, events, line-ups, stats), Neural Band navigation | 0 | Swift |
 | [amendezcauduro-bot/YouTube-Meta-Display](https://github.com/amendezcauduro-bot/YouTube-Meta-Display) | YouTube web app for Meta Ray-Ban Display | 0 | HTML |
 | [anti-turtle-lab/anti-turtle-meta-hud](https://github.com/anti-turtle-lab/anti-turtle-meta-hud) | Open-source Meta Display posture HUD, telemetry relay, and native macOS posture notifications | 0 | JavaScript |
 | [audiojoe4444/GladEyes](https://github.com/audiojoe4444/GladEyes) | A Plex client for Meta Ray Ban Display glasses | 0 | JavaScript |
@@ -369,9 +396,11 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [itsashishupadhyay/Meta_Smartglasses_Mission_control](https://github.com/itsashishupadhyay/Meta_Smartglasses_Mission_control) | _(no description)_ | 0 | Swift |
 | [izyman20/photodrop](https://github.com/izyman20/photodrop) | _(no description)_ | 0 | HTML |
 | [JarJarMadeIt/short-video-feed](https://github.com/JarJarMadeIt/short-video-feed) | A Meta Ray-Ban Display app built with GlassKit Studio | 0 | TypeScript |
+| [jnorwoo/GlassKaraoke-HUD](https://github.com/jnorwoo/GlassKaraoke-HUD) | Karaoke lyrics HUD for Meta Ray-Ban Display: synced word-level lyrics on the glasses, Neural Band controls, phone companion. | 0 | JavaScript |
 | [lightsailvr/BirdJournal](https://github.com/lightsailvr/BirdJournal) | Bird identification on Meta Ray-Ban Display glasses | 0 | Swift |
 | [LiquidAzir/book-reader](https://github.com/LiquidAzir/book-reader) | Book Reader for Meta Ray-Ban Display — 70K+ Project Gutenberg classics, D-pad navigation, adjustable text size, resume-on-page | 0 | JavaScript |
 | [LiquidAzir/youtube-viewer](https://github.com/LiquidAzir/youtube-viewer) | YouTube viewer web app for Meta Ray-Ban Display smartglasses | 0 | JavaScript |
+| [LucasStop/teleprompter-meta](https://github.com/LucasStop/teleprompter-meta) | Teleprompter com IA para Meta Ray-Ban Display (app iOS pessoal) | 0 | Swift |
 | [ma9197/gt-view](https://github.com/ma9197/gt-view) | Personal YouTube viewer | 0 | JavaScript |
 | [mikeshobes718/glasstube](https://github.com/mikeshobes718/glasstube) | YouTube on Meta Ray-Ban Display glasses | 0 | JavaScript |
 | [NayanVangala/argon4hack](https://github.com/NayanVangala/argon4hack) | _(no description)_ | 0 | Python |
@@ -404,6 +433,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [emthrology/metaglass_landmark_mvp](https://github.com/emthrology/metaglass_landmark_mvp) | Meta Ray-Ban Display 글래스용 랜드마크 방위 안내 HUD (MVP) — 단안 HUD + 폰 폴백, vanilla JS, 0 의존성 | 1 | JavaScript |
 | [NayanVangala/bayvalleyhacks](https://github.com/NayanVangala/bayvalleyhacks) | A planetarium in your glasses: point your head anywhere and see the real stars, constellations, and planets in that exact direction on Meta Ray-Ban Display. Built for Bay-Valley… | 1 | Python |
 | [VarunKapoor0/AnimusGlasses](https://github.com/VarunKapoor0/AnimusGlasses) | Point your glasses at any object. It identifies it, gives it a personality, and speaks to you in its own voice, through the glasses speakers. Built for Meta Ray-Ban Display Glas… | 1 | Kotlin |
+| [4waiz/RAAWI](https://github.com/4waiz/RAAWI) | NAZAR: bilingual UAE heritage companion — look at a landmark, ask, hear a sourced answer | 0 | TypeScript |
 | [7TanZ/RideHUD](https://github.com/7TanZ/RideHUD) | HUD displaying location of riders of your team | 0 | HTML |
 | [akpersad/SnapCount](https://github.com/akpersad/SnapCount) | _(no description)_ | 0 | Swift |
 | [aliahmed23/citibikear](https://github.com/aliahmed23/citibikear) | AR system for citibike docking | 0 | JavaScript |
@@ -440,6 +470,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [mn5st6kk2p-cmd/glasses-apps](https://github.com/mn5st6kk2p-cmd/glasses-apps) | Web apps for Meta Ray-Ban Display glasses (developer mode) | 0 | HTML |
 | [MRBD-Apps/avelo](https://github.com/MRBD-Apps/avelo) | àVélo stations on Meta Ray-Ban Display — nearby bike stations, swipe to browse, live status. | 0 | TypeScript |
 | [muanis/simplemtba](https://github.com/muanis/simplemtba) | _(no description)_ | 0 | JavaScript |
+| [nasaralyaqoop-source/rafiq-barr](https://github.com/nasaralyaqoop-source/rafiq-barr) | Rafiq Al-Barr: desert companion Web App for Meta Ray-Ban Display | 0 | JavaScript |
 | [Neleac/fogofwAR](https://github.com/Neleac/fogofwAR) | _(no description)_ | 0 | JavaScript |
 | [noctishowler/pocket-furry](https://github.com/noctishowler/pocket-furry) | Pocket Furry is a lightweight virtual companion app for Meta Display and mobile devices, featuring persistent needs, expressive animations, touch controls, and Neural Band inter… | 0 | JavaScript |
 | [northstar-labs-ui/polyview](https://github.com/northstar-labs-ui/polyview) | Polymarket client for Meta Ray-Ban Display AR glasses | 0 |  |
@@ -463,7 +494,9 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | Repo | Description | ★ | Lang |
 |---|---|---|---|
 | [EElumba/DeepSign-](https://github.com/EElumba/DeepSign-) | _(no description)_ | 2 | Python |
+| [hyper07/meta-hackathon-2026](https://github.com/hyper07/meta-hackathon-2026) | Watch Me: a voice-locked personal-security agent. Muse Spark Open (open weights) and Muse agents ask "Are you OK?" and alert your people with a map link. | 2 | Python |
 | [amanshah0729/vision](https://github.com/amanshah0729/vision) | Meta Ray-Ban Display camera from an iPhone via Meta DAT, over Bluetooth, on a free Apple account. Plus a sensor protocol so glasses web apps can use the camera and mic. | 1 | Swift |
+| [QuentinL-eng/Tennis-Buddy-Smart-Racket](https://github.com/QuentinL-eng/Tennis-Buddy-Smart-Racket) | Tennis buddy is your ai tennis coach, assistant, and buddy! It is able to collect useful data about your swing to help you be better at tennis | 1 | Python |
 | [Ashish11828/fraudlens](https://github.com/Ashish11828/fraudlens) | FraudLens: accessible scam-prevention app for Meta Ray-Ban Display | 0 | HTML |
 | [axe-fb/stepview](https://github.com/axe-fb/stepview) | Step Counter | 0 | JavaScript |
 | [baklarrrr/gulzar](https://github.com/baklarrrr/gulzar) | Cook, make and draw, one step at a time, with big pictures and a voice. Tablet first; also Meta Ray-Ban Display. | 0 | JavaScript |
@@ -472,6 +505,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [CarlKho-Minerva/itadaki-health](https://github.com/CarlKho-Minerva/itadaki-health) | _(no description)_ | 0 | TypeScript |
 | [ColinHu07/chinese](https://github.com/ColinHu07/chinese) | _(no description)_ | 0 | Python |
 | [coltyprimetime/green-slope](https://github.com/coltyprimetime/green-slope) | Set it on the green, hear the slope. Meta Ray-Ban Display web app. | 0 | HTML |
+| [dakotawaynesnyder88/coyote-hud](https://github.com/dakotawaynesnyder88/coyote-hud) | Golf HUD web app for Meta Ray-Ban Display glasses | 0 | HTML |
 | [darks8587/OuraMRBD](https://github.com/darks8587/OuraMRBD) | _(no description)_ | 0 | JavaScript |
 | [darksarai-sketch/oura-display](https://github.com/darksarai-sketch/oura-display) | Oura ring Sync | 0 | JavaScript |
 | [darksarai-sketch/oura-display-live-kit](https://github.com/darksarai-sketch/oura-display-live-kit) | _(no description)_ | 0 | JavaScript |
@@ -487,6 +521,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [haydenpester1-dev/garmin-glasses-app](https://github.com/haydenpester1-dev/garmin-glasses-app) | _(no description)_ | 0 | Python |
 | [HuanfuLi/LapSight](https://github.com/HuanfuLi/LapSight) | The ultimate mounted-phone timing instrument. LapSight runs natively on your phone to deliver precise telemetry and ghost-delta tracking. Built with high extensibility to suppor… | 0 | Kotlin |
 | [jasvir0304/emergency---assist--mrbd](https://github.com/jasvir0304/emergency---assist--mrbd) | emergency assistance interface for meta ray ban display | 0 | HTML |
+| [jrodsoto-builds/road-to-5k](https://github.com/jrodsoto-builds/road-to-5k) | Road to 5K -- a PT-to-5K run coach for Meta Ray-Ban Display glasses. Built solo for the Meta Global AI Developer Hackathon | 0 | TypeScript |
 | [kbaker827/hidratelens](https://github.com/kbaker827/hidratelens) | See your HidrateSpark water intake on Meta Ray-Ban Display glasses | 0 | TypeScript |
 | [khiradlabs/ayah-lens](https://github.com/khiradlabs/ayah-lens) | Ayah Lens: a Meta hackathon prototype for following Quran recitation on display glasses | 0 |  |
 | [KojiOkazaki/dat-link](https://github.com/KojiOkazaki/dat-link) | meta | 0 | HTML |
@@ -497,6 +532,8 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [milindshah17/RepPlay](https://github.com/milindshah17/RepPlay) | Just a vibecoded webapp for meta rayban display glasse | 0 | HTML |
 | [mostfasalih57-alt/quran-reader](https://github.com/mostfasalih57-alt/quran-reader) | Quran reader for Ray-Ban Meta Display | 0 | JavaScript |
 | [mostfasalih57-alt/quranreader](https://github.com/mostfasalih57-alt/quranreader) | Quran reader for Ray-Ban Meta Display | 0 | JavaScript |
+| [mydeardaddy/bhavya-ai-app](https://github.com/mydeardaddy/bhavya-ai-app) | An AI independence companion for autistic people and their caregivers, built on Meta Muse models and Meta glasses. | 0 | TypeScript |
+| [ohistudio/fursight](https://github.com/ohistudio/fursight) | Pet care for AI glasses, built on the Meta Model API | 0 | HTML |
 | [Pickled-Oiled/work-instructions](https://github.com/Pickled-Oiled/work-instructions) | _(no description)_ | 0 | HTML |
 | [ribamarliving-wq/gazelink-caregiver-lens](https://github.com/ribamarliving-wq/gazelink-caregiver-lens) | _(no description)_ | 0 | JavaScript |
 | [rubenhekkens/xr-sneak-peeks](https://github.com/rubenhekkens/xr-sneak-peeks) | Five single-file three.js demos: gas-curtain physics sandbox, real FBX teardown, powers-of-ten silicon dive, audio-reactive terrain, holographic digital twin | 0 | HTML |
@@ -522,6 +559,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | Repo | Description | ★ | Lang |
 |---|---|---|---|
 | [arnavvalvekar/meta-glasses-notes](https://github.com/arnavvalvekar/meta-glasses-notes) | _(no description)_ | 0 | Python |
+| [atlas-open-sources/borderless](https://github.com/atlas-open-sources/borderless) | Borderless: two-way spoken translation on one phone, with optional Meta Ray-Ban Display and Even G2 glasses (Meta AI hackathon) | 0 | Swift |
 | [Casyi/wildsignal](https://github.com/Casyi/wildsignal) | _(no description)_ | 0 | HTML |
 | [chrisclawguitarte/rayban-hn-digest](https://github.com/chrisclawguitarte/rayban-hn-digest) | Meta Ray-Ban Display Hacker News digest app | 0 | JavaScript |
 | [ethanmcconkie/gospel-glasses](https://github.com/ethanmcconkie/gospel-glasses) | Scripture browser for Meta Ray-Ban Display glasses | 0 | HTML |
@@ -540,17 +578,22 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [doubleMcyber/FaceConnectDemo](https://github.com/doubleMcyber/FaceConnectDemo) | AR Networking software for Meta Rayban Displays | 2 |  |
 | [EnygmaINC/todoist-glasses](https://github.com/EnygmaINC/todoist-glasses) | Todoist task viewer for Meta Ray-Ban Display glasses | 2 | JavaScript |
 | [mrbd-dev/mrbd](https://github.com/mrbd-dev/mrbd) | _(no description)_ | 2 | TypeScript |
+| [vibhortayal/arya](https://github.com/vibhortayal/arya) | Arya : Maintains your Grocery list, learns your usage from your purchases, maps your store, and tells you what is out of stock or cheaper nearby. Built with Meta Muse models f… | 2 | Python |
 | [arshmeets/ReminiSense](https://github.com/arshmeets/ReminiSense) | Recall - Networking Redefined | 1 | Jac |
 | [DOGFOOFA/dogfoofa.github.io](https://github.com/DOGFOOFA/dogfoofa.github.io) | apps for my meta ray ban displays | 1 | HTML |
 | [Duf1220/glbxr](https://github.com/Duf1220/glbxr) | GLB 3D viewer for Ray-Ban Meta Display | 1 | HTML |
 | [Eazcee/knight-hacks-9](https://github.com/Eazcee/knight-hacks-9) | _(no description)_ | 1 | Python |
 | [GOROman/naruebi-assets](https://github.com/GOROman/naruebi-assets) | NaruEbi character images for Ray-Ban Display DAT | 1 |  |
+| [liannebaron/sulat](https://github.com/liannebaron/sulat) | Handwriting tutor for Baybayin and other scripts (Meta Global AI Developer Hackathon) | 1 | HTML |
 | [MikeDevBeddo/mrbd-stocks](https://github.com/MikeDevBeddo/mrbd-stocks) | Apple Stocks-style watchlist web app for Meta Ray-Ban Display glasses (600x600, D-pad only) | 1 | JavaScript |
 | [Neleac/ARaARa](https://github.com/Neleac/ARaARa) | AR companion for Meta Ray-Ban Display | 1 | JavaScript |
 | [RRfyOfficial/CARBON](https://github.com/RRfyOfficial/CARBON) | CARBON: A Meta Rayban Display Project to scan text quickly through glasses and paste to your devices seamlessly | 1 | Swift |
 | [sebastianboscan/spot-glass](https://github.com/sebastianboscan/spot-glass) | See what a Boston Dynamics Spot robot sees, live on Meta Ray-Ban Display glasses. A Python relay for its body and thermal cameras. | 1 | Python |
 | [WalsonK/Gauss-HUD](https://github.com/WalsonK/Gauss-HUD) | Self-hosted car dashboard for Meta Ray-Ban Display glasses: battery, charging and climate at a glance, plus a few PIN-protected remote commands. Open source, cost-aware, no poll… | 1 | TypeScript |
+| [0b10headedcalf/holomenu](https://github.com/0b10headedcalf/holomenu) | Holomenu (Meta Global AI Hackathon) | 0 | TypeScript |
 | [anoted/test_xr_app](https://github.com/anoted/test_xr_app) | _(no description)_ | 0 | Kotlin |
+| [antonytranxr/fixi](https://github.com/antonytranxr/fixi) | A visual DIY companion for Meta Ray-Ban Display. Identify a project, follow illustrated steps, and get help by voice. Built for the Meta AI Hackathon. | 0 | Swift |
+| [ApprenticeAIMeta/Hack](https://github.com/ApprenticeAIMeta/Hack) | Experts can't stand next to every beginner. Their knowledge can. One recording of a skilled job becomes a live, hands-free guide in the expert's own voice, so anyone can learn… | 0 | Python |
 | [audiojoe4444/Halo](https://github.com/audiojoe4444/Halo) | _(no description)_ | 0 | JavaScript |
 | [audiojoe4444/Shoptics](https://github.com/audiojoe4444/Shoptics) | _(no description)_ | 0 | HTML |
 | [baklarrrr/battery-glass](https://github.com/baklarrrr/battery-glass) | Battery for Meta Ray-Ban Display: the glasses' and band's battery and what uses it | 0 | Python |
@@ -559,6 +602,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [bloomdaye/rayban-mini-browser](https://github.com/bloomdaye/rayban-mini-browser) | My web app for Meta Ray-Ban Display | 0 | HTML |
 | [BoilThis/RayBanDisplayDemo](https://github.com/BoilThis/RayBanDisplayDemo) | _(no description)_ | 0 | Kotlin |
 | [brandon-irving/react-native-meta-raybans-](https://github.com/brandon-irving/react-native-meta-raybans-) | _(no description)_ | 0 | TypeScript |
+| [brianlee0113/firsthand](https://github.com/brianlee0113/firsthand) | Some things aren't in any manual. Wear Meta glasses, do the job, and Muse Spark turns it into a step-by-step guide anyone can follow on their phone. | 0 | Python |
 | [brianscout/RecipeGuide](https://github.com/brianscout/RecipeGuide) | _(no description)_ | 0 | JavaScript |
 | [bsharper/RadiaGlasses](https://github.com/bsharper/RadiaGlasses) | Radiacode in Meta Display Glasses | 0 | JavaScript |
 | [chenqiu1024/MetaRaybanDisplayDemo](https://github.com/chenqiu1024/MetaRaybanDisplayDemo) | _(no description)_ | 0 | Kotlin |
@@ -576,14 +620,17 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [COwpert/Yardage](https://github.com/COwpert/Yardage) | _(no description)_ | 0 | HTML |
 | [cpht18/Onewheel-Display](https://github.com/cpht18/Onewheel-Display) | going to have all the information from your onewheel app to the meta display glasses | 0 | CSS |
 | [createdbymvw/yeet-your-thoughts](https://github.com/createdbymvw/yeet-your-thoughts) | A playful smart glasses app for writing or dictating a thought, burning it away, and letting it go. Built for Meta Ray-Ban Display with a procedural burn animation. | 0 | TypeScript |
+| [CreVL/gate-lens-ai-meta](https://github.com/CreVL/gate-lens-ai-meta) | Flutter + Meta Display SDK truck-inspection prototype with photo-based seal-label OCR, Go workflows and a walkable 3D simulator. | 0 | JavaScript |
 | [daikiito-dk/Lookwright](https://github.com/daikiito-dk/Lookwright) | _(no description)_ | 0 | Rust |
 | [darksarai-sketch/quran-display-reader](https://github.com/darksarai-sketch/quran-display-reader) | quran-display-reader | 0 | JavaScript |
 | [DeepanshuSharma-BNB/View-Protein](https://github.com/DeepanshuSharma-BNB/View-Protein) | _(no description)_ | 0 | JavaScript |
 | [DeepanshuSharma-BNB/WristVerse](https://github.com/DeepanshuSharma-BNB/WristVerse) | _(no description)_ | 0 | HTML |
+| [DenizYunus/athena](https://github.com/DenizYunus/athena) | Camera-verified skills marketplace on Meta Muse Spark, SAM 3.1 and Ray-Ban Meta glasses. Meta Global AI Developer Hackathon 2026. | 0 | Python |
 | [dissdique/pandora](https://github.com/dissdique/pandora) | _(no description)_ | 0 | HTML |
 | [donpark/Soundtext](https://github.com/donpark/Soundtext) | Soundtext: Displays sound and speech in text [PoC] | 0 | TypeScript |
 | [emchu08/glance](https://github.com/emchu08/glance) | _(no description)_ | 0 | TypeScript |
 | [ethanzhoucool/lookgrab](https://github.com/ethanzhoucool/lookgrab) | Look at an object, pinch, and a low-cost robot arm hands it to you. Open-source assistive robot built on Meta Ray-Ban Display and the SO-101 arm. | 0 |  |
+| [ethanzhoucool/nabi](https://github.com/ethanzhoucool/nabi) | Look at an object, pinch, and a low-cost robot arm brings it to you. Open-source, built on Meta Ray-Ban Display and the SO-101 arm. | 0 |  |
 | [flsourcing/Bypass-Market-Checker-Meta-Display](https://github.com/flsourcing/Bypass-Market-Checker-Meta-Display) | _(no description)_ | 0 | TypeScript |
 | [forcewake/glass-mosaic](https://github.com/forcewake/glass-mosaic) | Liquid-glass mixed-media mosaic Web App for Meta Ray-Ban Display, with in-browser search | 0 | TypeScript |
 | [forcewake/glasses-hfp-transcribe](https://github.com/forcewake/glasses-hfp-transcribe) | Android app: record Meta Ray-Ban Display glasses mic over Bluetooth HFP + local near-real-time transcription | 0 | Kotlin |
@@ -603,14 +650,18 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [jacktimko68-dev/Property-at-a-Glance](https://github.com/jacktimko68-dev/Property-at-a-Glance) | Allows you too see property information with Meta Display Glasses | 0 |  |
 | [JaeTierce31/FlipSight](https://github.com/JaeTierce31/FlipSight) | _(no description)_ | 0 |  |
 | [JAugustineFlory/metaDisplay-test](https://github.com/JAugustineFlory/metaDisplay-test) | _(no description)_ | 0 |  |
+| [jeremymatthewwerner/meta-glasses-sports-stats](https://github.com/jeremymatthewwerner/meta-glasses-sports-stats) | Record youth/amateur football, soccer and baseball with Meta glasses; auto-extract players, plays, stats and highlights | 0 | Swift |
 | [Jferg74/playclock](https://github.com/Jferg74/playclock) | _(no description)_ | 0 | JavaScript |
 | [Jkrachenfels/spring-scale-glasses](https://github.com/Jkrachenfels/spring-scale-glasses) | Hooke's law spring scale as a Meta Ray-Ban Display web app (educational demo) | 0 | HTML |
 | [JoeyWangTW/mrbd-scouter](https://github.com/JoeyWangTW/mrbd-scouter) | _(no description)_ | 0 | CSS |
+| [johnarndt/portravo-glasses](https://github.com/johnarndt/portravo-glasses) | Hands-free job-site walks on Meta Ray-Ban Display that become a quote, on Meta's models (Muse Voice Transcribe, Muse Spark, SAM 3.1). iPhone app + reference server. | 0 | TypeScript |
 | [josedv82/nba_schedule_meta_display](https://github.com/josedv82/nba_schedule_meta_display) | An app to access schedule related metrics for NBA teams fom the Meta Display glasses. | 0 | HTML |
 | [josephiii/VISOR](https://github.com/josephiii/VISOR) | Senior Design Project for MIRA | 0 | Kotlin |
 | [JoshJUNT/glasses](https://github.com/JoshJUNT/glasses) | _(no description)_ | 0 | HTML |
 | [Jungmin-k3i/RayBan_00](https://github.com/Jungmin-k3i/RayBan_00) | LumenCue Android concert AR companion | 0 | Kotlin |
+| [keval-doshi/meta-1](https://github.com/keval-doshi/meta-1) | Ustad: AI master technician — inspect machines, record expert lessons, guide learners | 0 | Kotlin |
 | [KhoaNguyen2149/MetaRayBanApps](https://github.com/KhoaNguyen2149/MetaRayBanApps) | KUAL Studios apps for Meta Ray-Ban Display glasses | 0 | TypeScript |
+| [kretsyboy/vision-home](https://github.com/kretsyboy/vision-home) | SiteVue.AR Home: visionOS-style Home View for Meta Ray-Ban Display | 0 | HTML |
 | [kryptonyt07/glasses-apps](https://github.com/kryptonyt07/glasses-apps) | _(no description)_ | 0 | HTML |
 | [LakiThoto/wingmanweb](https://github.com/LakiThoto/wingmanweb) | PostNL delivery webapp for Meta Ray-Ban Display | 0 | JavaScript |
 | [lilkimos/RAYBAN-CALCULATOR](https://github.com/lilkimos/RAYBAN-CALCULATOR) | For ray-ban meta display onyl | 0 | HTML |
@@ -625,6 +676,7 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [mrtsm/croatian-lens](https://github.com/mrtsm/croatian-lens) | Camera-based Croatian language learning for Meta Ray-Ban Display Glasses | 0 | HTML |
 | [Neleac/BallKnower](https://github.com/Neleac/BallKnower) | NBA live score and play-by-play for Meta Ray-Ban Display | 0 | JavaScript |
 | [nicolachoquet06250/test-meta-rayban-display-compatible-qrcode-webapp](https://github.com/nicolachoquet06250/test-meta-rayban-display-compatible-qrcode-webapp) | test d'une app compatible avec les meta rayban display | 0 | Kotlin |
+| [nitramkipop/lensdeck-recepteur](https://github.com/nitramkipop/lensdeck-recepteur) | Web App de test/récepteur LensDeck pour Meta Ray-Ban Display | 0 | HTML |
 | [noctishowler/neural-journal](https://github.com/noctishowler/neural-journal) | A journaling app for Meta Display with neural-band handwriting, swipe-password unlock, and date-searchable entries. | 0 | JavaScript |
 | [noctishowler/noctis-view](https://github.com/noctishowler/noctis-view) | _(no description)_ | 0 | JavaScript |
 | [noniloani/houses](https://github.com/noniloani/houses) | _(no description)_ | 0 | Kotlin |
@@ -702,18 +754,24 @@ A big, community-sourced index of open-source GitHub repositories for the **Meta
 | [SuperKyleJ/LoadInfoMini](https://github.com/SuperKyleJ/LoadInfoMini) | Load info view for the Meta Rayban Display glasses | 0 | HTML |
 | [TeacherDannyVR/Calculator-Web-App](https://github.com/TeacherDannyVR/Calculator-Web-App) | Calculator app for Meta Ray Ban Display glasses. | 0 | JavaScript |
 | [TeacherDannyVR/my-glasses-app](https://github.com/TeacherDannyVR/my-glasses-app) | First Meta Display Glasses app | 0 | HTML |
+| [TengKianBoon/fieldproof](https://github.com/TengKianBoon/fieldproof) | Field evidence people can trust: an AI agent can hire a person on the ground; Muse Spark reads, a person decides. | 0 | TypeScript |
 | [thebhanusingh/hackathon](https://github.com/thebhanusingh/hackathon) | _(no description)_ | 0 |  |
 | [theonewhogrins/glassesgrimoire](https://github.com/theonewhogrins/glassesgrimoire) | Grimoire for Display Glasses | 0 | JavaScript |
 | [thisconnor/mrbd](https://github.com/thisconnor/mrbd) | Web app building for Meta Ray-Ban displays | 0 | HTML |
+| [thurstonadams/xfix-glasses](https://github.com/thurstonadams/xfix-glasses) | xFix Workshop web app for Meta Ray-Ban Display | 0 | HTML |
 | [Tienduyvo/immo-deals-glasses](https://github.com/Tienduyvo/immo-deals-glasses) | _(no description)_ | 0 | HTML |
 | [trantuanminh1754/mrbd-gaze](https://github.com/trantuanminh1754/mrbd-gaze) | _(no description)_ | 0 | JavaScript |
 | [trantuanminh1754/mrbd-gaze-2](https://github.com/trantuanminh1754/mrbd-gaze-2) | _(no description)_ | 0 | JavaScript |
+| [TriadStudios/owl](https://github.com/TriadStudios/owl) | OWL (Overwatch for Wiring and Links) watches a network rack with a camera and SAM 3.1, reconciles every cable against what the switch reports, and tells you what dies before y… | 0 | Go |
 | [usinergy/MRD_Flashcards](https://github.com/usinergy/MRD_Flashcards) | German Vocabulary Flashcards Web App for Meta Ray-Ban Display | 0 | JavaScript |
 | [vedantlbhatt/heyblinky](https://github.com/vedantlbhatt/heyblinky) | Hey Clicky for Meta Ray Bans w/ Display | 0 | Kotlin |
 | [vekbui96/cardlens](https://github.com/vekbui96/cardlens) | Pokemon card search & pricing Web App for Meta Ray-Ban Display glasses | 0 | TypeScript |
 | [wcgalan714714/echomind-glasses](https://github.com/wcgalan714714/echomind-glasses) | Meta Ray-Ban Display glasses app | 0 | JavaScript |
+| [Woosiq92/stepcards](https://github.com/Woosiq92/stepcards) | One demonstration video → checked picture step cards, with a camera Coach mode. Meta AI Developer Hackathon 2026 (Indie). | 0 | HTML |
 | [x-union-kota/tozan-hud](https://github.com/x-union-kota/tozan-hud) | Meta Ray-Ban Display 用 登山HUD | 0 | HTML |
+| [ykassy/muse-ar-creator](https://github.com/ykassy/muse-ar-creator) | MOSHI MOSHI: say hello to your characters. A Muse connector that makes touchable, talking WebAR characters on HACKAR:S. Meta Global AI Developer Hackathon. | 0 | JavaScript |
 | [Youn-sik/meta-display-remote-iphone](https://github.com/Youn-sik/meta-display-remote-iphone) | Remote Control for meta ray ban display by iPhone | 0 | JavaScript |
+| [yousifhack/glasses-display-demo](https://github.com/yousifhack/glasses-display-demo) | Small web demo for Meta Ray-Ban Display: video playback, navigation, and simulated telemetry. | 0 | HTML |
 | [yunho-c/meta-rayban-display-ocr](https://github.com/yunho-c/meta-rayban-display-ocr) | _(no description)_ | 0 |  |
 
 ## Contributing
@@ -723,3 +781,5 @@ Found one that's missing? Open a PR adding a row to the right section (keep each
 ## How this list was built
 
 GitHub repository search over ~20 queries (`"ray-ban display"`, `"rayban display"`, `"meta ray-ban display" in:readme`, `"neural band"`, `"device access toolkit" in:readme`, `topic:meta-ray-ban-display`, `meta-wearables`, …), ~1,100 candidates, READMEs fetched and pattern-matched, then hand-reviewed. Star counts are a snapshot at collection time.
+
+**2026-11-09 update:** the same searches limited to repos created since 2026-10-27, plus `visor-kit` and Visor-related terms, added 58 repos, many of them Meta Global AI Developer Hackathon entries. Meta's official repos moved from `facebook/` to `meta/`, and the links now point there. Left out on purpose: `zavhozsf/mrbd-futex-stress`, a web app built to trigger unpatched kernel bugs and reboot the glasses.
